@@ -9,4 +9,4 @@
 - 早点学，以后的项目就都可以拿来锻炼，每写一行代码都是对内功的使用和强化，是可以在整个职业生涯中受益的事。
 
 [GitHub](https://github.com/igeekdong)
-[Get Started](/zh-cn)
+[Get Started](/readme)
