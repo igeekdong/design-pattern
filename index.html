@@ -69,7 +69,8 @@
       admin: ['igeekdong'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      id: location.href.substring(0, 48),
+      id: location.href.substring(location.href.length >= 50 ? 0 : (location.href.length - 51), location.href
+        .length - 1),
 
     })
   </script>
@@ -104,8 +105,8 @@
   <!-- <style type="text/css">
     body {
       overflow: auto !important;
-    } -->
-  </style>
+    }
+  </style> -->
 </body>
 
 </html>
