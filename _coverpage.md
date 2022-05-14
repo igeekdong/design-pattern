@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](https://github.com/igeekdong/image_store/blob/main/officialAccountPic/qrcode_for_gh_b6fb5bbeaaca_344.jpg?raw=true)
+![logo](https://cdn.jsdelivr.net/gh/igeekdong/image_store/officialAccountPic/qrcode_for_gh_b6fb5bbeaaca_344.jpg)
 > 关注公众号定时推送学习笔记
 
 > DesignPattern|设计模式之美
