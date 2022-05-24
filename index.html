@@ -10,10 +10,10 @@
     content="doc,docs,igeekdong,documentation,github,gitee,coding,pages,leetcode,lcof,lcci,lcof2,coding-interview,coding-interview-guide,cracking-the-coding-interview,yanglbme">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="icon" type="image/png" sizes="32x32" href="_media/favicon-32x32.png">
   <!-- gitalk -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 
 <body>
@@ -47,19 +47,19 @@
       repo: 'igeekdong/design-pattern'
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!--搜索插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 简单文字复制插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- 统计文字 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- 图片缩放插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
   <!-- gittalk -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
     const gitalk = new Gitalk({
       clientID: 'f340389e9f8d05c53044',
@@ -69,27 +69,27 @@
       admin: ['igeekdong'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      id: document.getElementsByName('title')[0],
+      id: document.getElementsByName('title')[0].innerHTML
+    });
 
-    })
   </script>
   <!-- 代码高亮插件 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-go.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-kotlin.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1.15.0/components/prism-javascript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1.15.0/components/prism-typescript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-swift.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-nim.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-ruby.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-rust.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-go.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-kotlin.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs@1.15.0/components/prism-javascript.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs@1.15.0/components/prism-typescript.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-swift.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-nim.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-ruby.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs/components/prism-rust.min.js"></script>
 
 
 
