@@ -636,7 +636,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 如上代码中的sd（StreamDecoder类对象），在Sun的JDK实现中，实际的方法实现是对sun.nio.cs.StreamDecoder类的同名方法的调用封装。类结构图如下：
 
-![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257319.png)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205271046697.png)
 
 从上图可以看出：
 
@@ -657,7 +657,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 快餐店有炒面、炒饭这些快餐，可以额外附加鸡蛋、火腿、培根这些配菜，当然加配菜需要额外加钱，每个配菜的价钱通常不太一样，那么计算总价就会显得比较麻烦。
 
-<img src="D:/传智播客/专题/设计模式/成品/笔记/assets/装饰者模式-使用前.png" style="zoom:80%;" />
+![装饰者模式-使用前](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205271047530.png)
 
 使用继承的方式存在的问题：
 
